@@ -9,7 +9,6 @@ nav {
   width: 100%;
   background-color: black;
   height: auto;
-  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -43,6 +42,7 @@ nav {
   color: white;
   letter-spacing: 1px;
   padding: 10px;
+  position: relative;
 }
 
 .menu li a {
@@ -51,5 +51,32 @@ nav {
 }
 
 .menu li:hover {
+  background-color: rgba(255, 255, 255, 0.694);
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: black;
+  padding: 10px;
+  top: calc(100% + 5px);
+  left: 0;
+}
+
+.services:hover .submenu,
+.submenu:hover {
+  display: block;
+}
+
+.submenu li {
+  padding: 5px 0;
+}
+
+.submenu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.submenu li:hover {
   background-color: rgba(128, 128, 128, 0.63);
 }
