@@ -18,6 +18,7 @@ nav {
 }
 
 .menu {
+  width: 100%;
   list-style: none;
   display: flex;
   align-items: center;
@@ -115,4 +116,50 @@ nav {
 
 .myButton:hover {
   background-color: #3e8e41;
+}
+.search-icon {
+  margin-left: auto;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.search-icon i {
+  font-size: 1rem;
+}
+.ourteam {
+  text-align: center;
+}
+.ourteam h1 {
+  padding-top: 30px;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.ourteam h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: lighter;
+}
+.users {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.people {
+  margin: 10px;
+}
+
+.people img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
 }
