@@ -13,6 +13,7 @@ nav {
   justify-content: space-between;
   position: sticky;
   top: 0;
+  z-index: 1000;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, 0.2);
 }
 
@@ -57,10 +58,11 @@ nav {
 .submenu {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: #333;
   padding: 10px;
   top: calc(100% + 5px);
   left: 0;
+  z-index: 1000;
 }
 
 .services:hover .submenu,
@@ -80,28 +82,34 @@ nav {
 .submenu li:hover {
   background-color: rgba(128, 128, 128, 0.63);
 }
+
 .banner {
   background-image: url("https://www.w3schools.com/w3images/sailboat.jpg");
   width: 100%;
   position: relative;
-  min-height: 350px;
-  max-height: 600px;
+  min-height: 500px;
+  max-height: 800px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   color: white;
   background-position: center;
+  z-index: 1;
+  padding: 20px;
 }
+
 .myButton {
   background-color: black;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 20px 40px;
   text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  position: absolute;
+  top: 380px;
+  left: 20px;
   cursor: pointer;
 }
 
