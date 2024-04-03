@@ -80,3 +80,14 @@ nav {
 .submenu li:hover {
   background-color: rgba(128, 128, 128, 0.63);
 }
+.banner {
+  background-image: url("https://www.w3schools.com/w3images/sailboat.jpg");
+  width: 100%;
+  min-height: 350px;
+  max-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-position: center;
+}
