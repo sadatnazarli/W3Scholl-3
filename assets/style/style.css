@@ -163,3 +163,45 @@ nav {
   object-fit: cover;
   border-radius: 50%;
 }
+.ourwork {
+  background-color: #333333;
+  text-align: center;
+  margin-top: 70px;
+  width: 100%;
+  padding: 20px;
+}
+
+.ourwork h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.ourwork p {
+  line-height: 1.5;
+  color: white;
+}
+
+.work-samples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.sample {
+  margin: 10px;
+  text-align: center;
+  width: 30%;
+}
+
+.sample img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.sample h4 {
+  margin-top: 5px;
+  color: white;
+}
