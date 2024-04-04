@@ -410,7 +410,6 @@ footer {
   margin-right: 10px;
   padding: 10px;
   font-size: 20px;
-  width: 30px;
   text-align: center;
 }
 
@@ -467,4 +466,14 @@ footer {
   border-right: 5px solid transparent;
   border-bottom: 5px solid white;
   margin-left: 5px;
+}
+
+.footer-back-img {
+  height: 100vh;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
