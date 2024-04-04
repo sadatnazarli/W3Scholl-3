@@ -242,7 +242,7 @@ nav {
   border: 1px solid #333;
   width: 30%;
   text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .plan h3 {
@@ -292,76 +292,36 @@ p {
   margin-top: 20px;
 }
 .contact-form {
-  background-color: #f9f9f9;
-  padding: 10px;
-  /* flex properties removed */
-  margin: 0 auto;
+  background-color: lightgray;
+  margin-top: 70px;
   width: 100%;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
 }
 
-.form-container {
-  /* margin removed */
-}
-
-.contact-form h1 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.form-field {
-  margin-bottom: 10px;
-}
-
-.form-field label {
-  display: block;
-  font-size: 1rem;
-  margin-bottom: 5px;
-  color: #333;
-}
-
-.form-field input,
-.form-field textarea {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 5px;
-  width: 100%;
-  font-size: 1rem;
-  color: #333;
-}
-
-.form-field textarea {
-  resize: vertical;
-  height: 150px;
-}
-
-.contact-form button[type="submit"] {
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 5px 10px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.contact-form button[type="submit"]:hover {
-  background-color: #3e8e41;
+.left {
+  margin-right: 20px;
 }
 
 .contact-info {
-  text-align: center;
+  margin-top: 20px;
 }
 
-.contact-info h2 {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-  color: #333;
+.input-form {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
 }
 
-.contact-info p {
-  font-size: 1rem;
-  color: #333;
+.Button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
 }
